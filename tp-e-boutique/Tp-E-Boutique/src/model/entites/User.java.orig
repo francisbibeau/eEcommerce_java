@@ -1,0 +1,49 @@
+package model.entites;
+
+public class User {
+
+	private int id;
+	private String title;
+	private String firstname;
+	private String lastname;
+	private String emailaddr;
+	private String login;
+	private String password;
+	
+<<<<<<< HEAD
+=======
+	public User(int user_id, String user_title, String user_firstname, String user_lastname, String user_emailaddr,
+			String user_login, String user_password) {
+		
+>>>>>>> MarcAntoineBranch
+		this.id = user_id;
+		this.title = user_title;
+		this.firstname = user_firstname;
+		this.lastname = user_lastname;
+		this.emailaddr = user_emailaddr;
+		this.login = user_login;
+		this.password = user_password;
+		return id;
+		this.id = user_id;
+		return firstname;
+		this.firstname = user_firstname;
+		return lastname;
+		this.lastname = user_lastname;
+		return emailaddr;
+		this.emailaddr = user_emailaddr;
+		return login;
+		this.login = user_login;
+<<<<<<< HEAD
+		return password;
+=======
+	}
+	public String getUser_password() {
+		return password;
+	}
+	public void setUser_password(String user_password) {
+>>>>>>> MarcAntoineBranch
+		this.password = user_password;
+		return title;
+		this.title = user_title;
+	
+}
